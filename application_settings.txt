@@ -1,0 +1,54 @@
+# uDesktopMascot Application Settings
+# 為替監視マスコット用設定
+
+[Character]
+# 使用するVRMモデル（StreamingAssetsフォルダ内のパス）
+ModelPath=coron20250925.vrm
+
+# テクスチャパス（カスタムテクスチャを使う場合）
+# TexturePaths=custom_texture.png
+
+# キャラクターのスケール（大きさ）
+Scale=3
+
+# キャラクターの位置（画面右下に配置）
+PositionX=0
+PositionY=0
+PositionZ=0
+
+# キャラクターの回転
+RotationX=0
+RotationY=0
+RotationZ=0
+
+[Sound]
+# ボイス音量（0.0～1.0）
+# VOICEVOXで生成される音声の音量
+VoiceVolume=0.5
+
+# BGM音量（0.0～1.0）
+# 為替監視中はBGMなしを推奨
+BGMVolume=0.0
+
+# 効果音音量（0.0～1.0）
+SEVolume=1.0
+
+[Display]
+# 透明度（0.0～1.0）
+# 1.0 = 完全に不透明
+Opacity=1.0
+
+# 常に最前面に表示
+# True = 常に最前面、False = 通常のウィンドウ
+AlwaysOnTop=True
+
+[Performance]
+# 目標フレームレート
+# 60 = スムーズ、30 = 省電力
+TargetFrameRate=60
+
+# 品質レベル（0～5）
+# 0 = 最低品質（最軽量）
+# 2 = 標準品質
+# 5 = 最高品質
+QualityLevel=2

@@ -1,0 +1,24 @@
+{
+    "voicevox_url": "http://localhost:50021",
+    "spikweatch_ws_url": "ws://localhost:8000",
+    "speaker_id": 1,
+    "enable_system_messages": false,
+    "enable_mascot_filter": true,
+    "voice_settings": {
+      "speakers": {
+        "1": "四国めたん（ノーマル）",
+        "2": "ずんだもん（ノーマル）",
+        "3": "春日部つむぎ（ノーマル）",
+        "8": "四国めたん（あまあま）",
+        "46": "ちび式じぃ",
+        "47": "櫻歌ミコ"
+      },
+      "selected_speaker": 1,
+      "note": "AItuberKitと異なる話者IDを使うと区別しやすいです"
+    },
+    "custom_templates": {
+      "note": "現在は使用していませんが、将来的にカスタマイズ可能",
+      "spike_up": "{jp_name}が{pips}pips上昇です",
+      "spike_down": "{jp_name}が{pips}pips下落です"
+    }
+  }
